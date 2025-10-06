@@ -10,4 +10,5 @@ dependencies = [
     "matplotlib>=3.10.6",
     "pandas>=2.3.3",
     "rapidfuzz>=3.14.1",
+    "recordlinkage>=0.16",
 ]
