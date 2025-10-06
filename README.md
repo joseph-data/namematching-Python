@@ -1,10 +1,3 @@
----
-author: Joseph Nyajuoga
-tags:
-  - "#matching"
-created: 2025-10-05
----
-
 **Overview**
 
 The goal was to match candidate names from several congressional election files to a master list of congressional members using only name information. The available data included a primary dataset (`congress_members_with_parties.csv`) with roughly 2,900 members and several year‑specific election datasets (`congressional_elections_YYYY.csv` for 2019–2025). Each election file contained candidate names, party affiliations and basic metadata; however, the “status” column was considered unreliable and was ignored.
@@ -31,22 +24,12 @@ The goal was to match candidate names from several congressional election files 
 
 Overall, combining a normalised exact match with token‑based fuzzy matching provided good coverage while avoiding many false positives.
 
-::: callout-note
-## Summary Results
-
-1\. Total candidates compared: 24244
-
-2\. Number of matches: 7615
-
-3\. Number of exact matches: 4377
-
-4\. Number of fuzzy matches: 3238
-
-5\. Number of unmatched candidates: 16629
-
-6\. Unique members matched: 1576 of 2873
-
-7\. Members unmatched: 1297
-:::
-
-**Summary Results** \> \[!summary\] \> 1. Total candidates compared: 24244 \> 2. Number of matches: 7615 \> 3. Number of exact matches: 4377 \> 4. Number of fuzzy matches: 3238 \> 5. Number of unmatched candidates: 16629 \> 6. Unique members matched: 1576 of 2873 \> 7. Members unmatched: 1297
+**Summary Results** 
+> [!summary] 
+> 1. Total candidates compared: 24244 
+> 2. Number of matches: 7615 
+> 3. Number of exact matches: 4377 
+> 4. Number of fuzzy matches: 3238 
+> 5. Number of unmatched candidates: 16629 
+> 6. Unique members matched: 1576 of 2873 
+> 7. Members unmatched: 1297
